@@ -2,9 +2,9 @@ const sql = require('mssql');
 
 const config = {
     user: 'sa',                 // SQL Server login username
-    password: 'MahinSQL12@',    // SQL Server login password
-    server: 'localhost',        // Replace with actual server name or IP
-    database: 'GovalyltdDatabase', // Target database name
+    password: '',    // SQL Server login password
+    server: '',        // Replace with actual server name or IP
+    database: '', // Target database name
     options: {
         encrypt: true,              // Use encryption for Azure connections
         trustServerCertificate: true // Accept self-signed certificates
